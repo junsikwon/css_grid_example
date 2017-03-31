@@ -1,0 +1,32 @@
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns:
+        [left-navbar-start] 20%
+        [left-sidebar-end content-start] 60%
+        [content-end right-sidebar-start] 20%
+        [right-sidebar-end];
+    grid-template-rows:
+        [body-start] 80%
+        [body-end footer-start] 20%
+        [footer-end];
+
+    grid-gap: 20px;
+}
+
+.container > * {
+    background-color: rgb(93, 198, 154);
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer {
+    grid-column: content-start / right-sidebar-end;
+}
+
+.left-navbar {
+    grid-row: body-start / footer-end;
+}

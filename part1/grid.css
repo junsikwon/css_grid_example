@@ -1,34 +1,33 @@
-/* Add your styles here */
-
 .container {
     display: grid;
     grid-gap: 5px;
     grid-template-areas:
     "header header header"
-    "aside-1 section aside-2"
+    "nav section aside"
     "footer footer footer";
 }
 
 /* All Grid Items */
 .container > * {
-    background-color: mediumseagreen;
-    font-size: 80px;
+    background-color: rgb(113, 163, 240);
+    font-size: 40px;
+    padding: 4px;
 }
 
 header {
     grid-area: header;
 }
 
-aside:nth-of-type(1) {
-    grid-area: aside-1;
+nav {
+    grid-area: nav;
 }
 
 section {
     grid-area: section;
 }
 
-aside:nth-of-type(2) {
-    grid-area: aside-2;
+aside: {
+    grid-area: aside;
 }
 
 footer {

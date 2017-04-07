@@ -3,15 +3,13 @@
     height: 100vh;
     grid-template-columns:
         [left-navbar-start] 20%
-        [left-sidebar-end content-start] 60%
+        [left-navbar-end content-start] 60%
         [content-end right-sidebar-start] 20%
         [right-sidebar-end];
     grid-template-rows:
         [body-start] 80%
         [body-end footer-start] 20%
         [footer-end];
-
-    grid-gap: 20px;
 }
 
 .container > * {
@@ -21,6 +19,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    border: 2px solid rgb(135, 135, 135);
+    box-sizing: border-box;
 }
 
 .footer {

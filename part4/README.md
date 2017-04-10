@@ -1,7 +1,7 @@
 # Grid name을 이용한 Grid 나누기
 ![grid4](/assets/grid4.PNG)
 
-[보기]()
+[보기](https://rawgit.com/sonim1/css_grid_example/master/part4/index.html)
 
 이번 예제에서는 grid css 중 `grid-template-columns`와 `grid-template-rows`를 사용합니다.
 

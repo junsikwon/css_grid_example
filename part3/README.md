@@ -4,7 +4,7 @@
 
 이번 코드에서 중요 포인트는 fr단위입니다.
 
-[보기]()
+[보기](https://rawgit.com/sonim1/css_grid_example/master/part3/index.html)
 
 아래 css를 보시죠
 

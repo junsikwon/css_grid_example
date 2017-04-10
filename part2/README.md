@@ -6,7 +6,7 @@ grid-column과 grid-row를 이용하여 레이아웃을 나누는 법을 알아�
 
 우선 기본적인 grid css를 적용해 줍시다.
 
-[보기]()
+[보기](https://rawgit.com/sonim1/css_grid_example/master/part2/index.html)
 
 ```css
 .container {

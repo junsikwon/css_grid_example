@@ -12,7 +12,7 @@
         [footer-end];
 }
 
-.container > * {
+.container > div {
     background-color: rgb(93, 198, 154);
     font-size: 30px;
     display: flex;
